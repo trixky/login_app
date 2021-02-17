@@ -1,6 +1,6 @@
 # thailand_app
 
-My first cheap application with [flutter](https://flutter.dev/).
+My first cheap application with [flutter](https://flutter.dev/) (visual only).
 
 ![Recordit GIF](https://raw.githubusercontent.com/trixky/thailand_app/master/demo/iphone_12_pro_max.png)
 ![Recordit GIF](https://raw.githubusercontent.com/trixky/thailand_app/master/demo/pixel_3axl.png)
