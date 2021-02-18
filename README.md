@@ -1,9 +1,9 @@
-# thailand_app
+# login_page
 
 My first cheap application with [flutter](https://flutter.dev/) (visual only).
 
-![Recordit GIF](https://raw.githubusercontent.com/trixky/thailand_app/master/demo/ios_screen.png)
-![Recordit GIF](https://raw.githubusercontent.com/trixky/thailand_app/master/demo/android_screen.png)
+![Recordit GIF](https://raw.githubusercontent.com/trixky/login_page/master/demo/ios_screen.png)
+![Recordit GIF](https://raw.githubusercontent.com/trixky/login_page/master/demo/android_screen.png)
 
 ## Usage
 
