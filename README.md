@@ -2,8 +2,8 @@
 
 My first cheap application with [flutter](https://flutter.dev/).
 
-![Recordit GIF](https://raw.githubusercontent.com/trixky/thailand_app/master/demo/iphone_12_pro_max.png)
-![Recordit GIF](https://raw.githubusercontent.com/trixky/thailand_app/master/demo/pixel_3axl.png)
+![Recordit GIF](https://raw.githubusercontent.com/trixky/thailand_app/master/demo/ios_screen.png)
+![Recordit GIF](https://raw.githubusercontent.com/trixky/thailand_app/master/demo/android_screen.png)
 
 ## Usage
 

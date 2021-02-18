@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
             ),
             onPressed: null,
           ),
-          title: Text("Voyage Thailande"),
+          title: Text("Voyage Thaïlande"),
           actions: [
             IconButton(
               icon: Icon(
@@ -62,7 +62,7 @@ Widget titleSection = Container(
             style: TextStyle(fontSize: 25, fontWeight: FontWeight.w800),
           ),
           Text(
-            'Réservez votre séjour en Thailande',
+            'Réservez votre séjour en Thaïlande',
             style: TextStyle(fontSize: 17, fontWeight: FontWeight.w500),
           ),
         ],
