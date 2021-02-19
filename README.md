@@ -2,10 +2,10 @@
 
 My second cheap application with [flutter](https://flutter.dev/) (visual only).
 
-![Recordit GIF](https://raw.githubusercontent.com/trixky/login_page/master/demo/ios_screen_1.png)
-![Recordit GIF](https://raw.githubusercontent.com/trixky/login_page/master/demo/ios_screen_2.png)
-![Recordit GIF](https://raw.githubusercontent.com/trixky/login_page/master/demo/android_screen_1.png)
-![Recordit GIF](https://raw.githubusercontent.com/trixky/login_page/master/demo/android_screen_2.png)
+![Recordit GIF](https://raw.githubusercontent.com/trixky/login_page/master/demo/ios_screen_1.png | height=600)
+![Recordit GIF](https://raw.githubusercontent.com/trixky/login_page/master/demo/ios_screen_2.png | height=600)
+![Recordit GIF](https://raw.githubusercontent.com/trixky/login_page/master/demo/android_screen_1.png | height=600)
+![Recordit GIF](https://raw.githubusercontent.com/trixky/login_page/master/demo/android_screen_2.png | height=600)
 
 ## Usage
 
