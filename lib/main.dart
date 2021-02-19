@@ -1,4 +1,3 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import './signup-page.dart';
@@ -32,9 +31,12 @@ class LoginPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               flutterIcone,
+              SizedBox(height: 20),
               titleSection,
               textSection,
               inputSection,
+              ButtonWidget(),
+              bottomSection,
             ],
           ),
         ),
@@ -70,14 +72,16 @@ Widget flutterIcone = Container(
 );
 
 Widget titleSection = Container(
-  margin: EdgeInsets.fromLTRB(0, 20, 0, 0),
   child: Row(
     mainAxisAlignment: MainAxisAlignment.center,
     children: [
       Text(
         'Flutter',
         style: GoogleFonts.exo(
-            fontSize: 40, color: Colors.white, fontWeight: FontWeight.w900),
+          fontSize: 40,
+          color: Colors.white,
+          fontWeight: FontWeight.w900,
+        ),
       ),
       SizedBox(width: 3),
       Text(
@@ -94,10 +98,11 @@ Widget titleSection = Container(
 Widget textSection = Container(
   margin: EdgeInsets.fromLTRB(0, 5, 0, 50),
   child: Text(
-    'connexion',
-    style: GoogleFonts.exo(fontSize: 16, color: Colors.white
-        // fontWeight: FontWeight.bold,
-        ),
+    'connection',
+    style: GoogleFonts.exo(
+      fontSize: 16,
+      color: Colors.white,
+    ),
   ),
 );
 
@@ -121,14 +126,14 @@ Widget inputSection = Container(
               height: 60,
               width: 60,
               child: Icon(
-                Icons.people_outline,
+                Icons.account_circle_outlined,
                 size: 30,
                 color: Colors.white,
               ),
             ),
             Container(
               height: 60,
-              width: 230,
+              width: 245,
               child: Center(
                 child: TextField(
                   textAlign: TextAlign.center,
@@ -150,7 +155,7 @@ Widget inputSection = Container(
         ),
       ),
       SizedBox(
-        height: 30,
+        height: 20,
       ),
       Container(
         decoration: BoxDecoration(
@@ -175,7 +180,7 @@ Widget inputSection = Container(
             ),
             Container(
               height: 60,
-              width: 230,
+              width: 245,
               child: Center(
                 child: TextField(
                   textAlign: TextAlign.center,
@@ -199,3 +204,80 @@ Widget inputSection = Container(
     ],
   ),
 );
+
+class ButtonWidget extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return RaisedButton(
+      onPressed: () {
+        Navigator.push(
+            context, MaterialPageRoute(builder: (context) => SignupPage()));
+      },
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(30),
+      ),
+      color: Colors.white,
+      textColor: Colors.blue[900],
+      padding: EdgeInsets.fromLTRB(20, 5, 20, 5),
+      child: Text(
+        'Connection'.toUpperCase(),
+      ),
+    );
+  }
+}
+
+Widget bottomSection = Container(
+  margin: EdgeInsets.fromLTRB(0, 0, 0, 20),
+  child: Row(
+    mainAxisAlignment: MainAxisAlignment.center,
+    children: [
+      // Text('Pas encore de compte ?'),
+      SignupButton(),
+      Text(
+        ' | ',
+        style: TextStyle(
+          color: Colors.white,
+        ),
+      ),
+      RecoveryButton(),
+    ],
+  ),
+);
+
+class SignupButton extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return FlatButton(
+      minWidth: 90,
+      onPressed: () {
+        Navigator.push(
+            context, MaterialPageRoute(builder: (context) => SignupPage()));
+      },
+      child: Text(
+        'register'.toLowerCase(),
+        style: GoogleFonts.exo(
+          color: Colors.white,
+        ),
+      ),
+    );
+  }
+}
+
+class RecoveryButton extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return FlatButton(
+      minWidth: 90,
+      onPressed: () {
+        Navigator.push(
+            context, MaterialPageRoute(builder: (context) => SignupPage()));
+      },
+      child: Text(
+        'recovery'.toLowerCase(),
+        style: GoogleFonts.exo(
+          color: Colors.white,
+        ),
+      ),
+    );
+  }
+}
