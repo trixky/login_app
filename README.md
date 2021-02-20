@@ -2,10 +2,10 @@
 
 My second cheap application with [flutter](https://flutter.dev/) (visual only).
 
-<img src="https://raw.githubusercontent.com/trixky/login_page/master/demo/ios_screen_1.png" height="600">
-<img src="https://raw.githubusercontent.com/trixky/login_page/master/demo/ios_screen_2.png" height="600">
-<img src="https://raw.githubusercontent.com/trixky/login_page/master/demo/android_screen_1.png" height="600">
-<img src="https://raw.githubusercontent.com/trixky/login_page/master/demo/android_screen_2.png" height="600">
+![screenshot](https://raw.githubusercontent.com/trixky/login_page/master/demo/iphone_12_pro_max_screen_1)
+![screenshot](https://raw.githubusercontent.com/trixky/login_page/master/demo/iphone_12_pro_max_screen_2)
+![screenshot](https://raw.githubusercontent.com/trixky/login_page/master/demo/pixel_3a_xl_screen_1)
+![screenshot](https://raw.githubusercontent.com/trixky/login_page/master/demo/pixel_3a_xl_screen_2)
 
 ## Usage
 
